@@ -36,5 +36,8 @@ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH' >> ~/.
 source ~/.bashrc
 sudo ldconfig
 
+# verifying a functioning cuda (follow the instruction here if needed)
+https://github.com/nvidia/cuda-samples
+
 
 
