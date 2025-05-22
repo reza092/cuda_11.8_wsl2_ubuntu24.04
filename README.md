@@ -32,8 +32,11 @@ sudo reboot now
 
 # setup the cuda paths
 echo 'export PATH=/usr/local/cuda-11.8/bin:$PATH' >> ~/.bashrc
+
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+
 source ~/.bashrc
+
 sudo ldconfig
 
 # verifying a functioning cuda (follow the instruction here if needed)
