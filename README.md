@@ -42,5 +42,6 @@ sudo ldconfig
 # verifying a functioning cuda (follow the instruction here if needed)
 https://github.com/nvidia/cuda-samples
 
-
+# To install GPU driver when GPU display port is the only VGA to connect monitor follow the steps here-
+https://github.com/oddmario/NVIDIA-Ubuntu-Driver-Guide
 
